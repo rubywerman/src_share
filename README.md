@@ -3,14 +3,31 @@
 shared source repo
 
 ## Files
+- 001_get_multi_laads.bash
+  bash script to download data
 
-### Location Info
+- README.md  
+  Important informations. Location informaiton etc
 
-##### Area and Directory
+- closed_1.txt  
+  Text file which specifies dates for downloading closed cell at coast of california from [LAADS](https://ladsweb.modaps.eosdis.nasa.gov/search/history).    
+  Test file contents are date and the directory informatrion on remote nasa server.
+  ```
+  2001-01-15,/archive/orders/501343169/
+  ```
+  * DO NOT make any gap between `date` and `archive directory`.
+
+- open_3.txt 
+  Same as closed_1.txt but for open cell at coast of chile. 
+
+
+## Location Info
+
+### Area and Directory
 Our first 2 targets are location.1 `closed_california_1` and .3`open_chile_3`
 
 
-##### location
+#### location
 1:-109.6, 32.6, -135.9, 3.4    
 2:-72.3, -6.5, -102.3, -31.8   
 3:-107.6, -4, -137.3, -34.5  
@@ -20,7 +37,7 @@ Our first 2 targets are location.1 `closed_california_1` and .3`open_chile_3`
 7:40.2, -34.3, 23.5, -49.9  
 8:155.4, 32.5, 127.7, 12.4  
 
-##### directory
+#### directory
 1. `closed_california_1`
 2. `closed_chile_2`
 3. `open_chile_3`
