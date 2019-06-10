@@ -4,7 +4,14 @@ shared source repo
 
 ## Files
 - 001_get_multi_laads.bash
-  bash script to download data
+  bash script to download data  
+  * Usabe
+    ```
+    bash 001_get_multi_laads.bash ${closed_XX.txt or open_XX.txt} ${output directory}  
+    ```
+    Arguemnts  
+    $1: filename which you specified dates and directories  
+    $2: directory you want to store  
 
 - README.md  
   Important informations. Location informaiton etc
